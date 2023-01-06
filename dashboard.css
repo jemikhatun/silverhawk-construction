@@ -1,0 +1,109 @@
+ 
+.main_dashboard .row {
+    --bs-gutter-x: 0;
+    
+}
+
+.main_dashboard .row ul{
+    padding-left: 0;
+}
+h2{
+    color:white;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.fa-gauge{
+    padding-right: 15px;
+    font-size: 20px;
+    color:rgb(70, 68, 68);
+}
+
+.fa-house, .fa-address-card,.fa-servicestack,.fa-user,.fa-phone{
+    color: rgb(70, 68, 68);
+    padding-right: 15px;
+    font-size: 20;
+}
+.main_dashboard .row ul li{
+    margin-bottom: 10px;
+    list-style-type: none;
+    background-color:transparent ;
+    padding: 0;
+  
+}
+.main_dashboard .row ul li a{
+    text-decoration: none;
+    color: rgb(239, 239, 245);
+    font-size: 20px;
+    text-transform: capitalize;;
+
+}
+
+.main_dashboard .row ul li:hover{
+    background-color: #173a69;
+    border-left: 5px solid white;
+    padding-left: 8px;
+    
+}
+.main_dashboard .row ul .active{
+    background-color: #173a69;
+    position: relative;
+}
+.main_dashboard .row ul li:hover{
+    position: relative;
+}
+
+.main_dashboard .row ul li:hover::after{
+    right: 0;
+    border: solid 8px transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #f6f6f7;
+    top: 50%;
+    margin-top: -8px;}
+    .main_dashboard .row ul .active::after{
+        right: 0;
+        border: solid 8px transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-right-color: #f6f6f7;
+        top: 50%;
+        margin-top: -8px;}
+.main_dashboard .right-column{
+padding-left: 20px;
+padding-top: 20px;
+}
+h1{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+label{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color:white;
+}
+input{
+    margin-bottom: 10px;
+}
+.space{
+    padding-left: 20px;
+}
+form {
+    background: #173a69;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+button{
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
